@@ -26,7 +26,7 @@ for (i = 1; i < 11; i++) {
 
 console.log("");
 
-let num = 4;
+let num = 14;
 let num1 = 1 * num;
 let num2 = 2 * num;
 let num3 = 3 * num;
@@ -50,10 +50,10 @@ console.log(`${num} * 9 = ${num9}`);
 console.log(`${num} * 10 = ${num10}`);
 
 zapros = prompt("Введите ваше имя");
+alert("Вы успешно зарегистрировались");
 accept = confirm(
   "При перезагрузке сайта, введённые данные на форме будут очищены, Вы уверены что хотите перезагрузить?"
 );
-alert("Вы успешно зарегистрировались");
 
 console.log(zapros);
 console.log(accept);
